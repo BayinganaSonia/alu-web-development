@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+header a img {
+  height: 40px;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 80px;
+}
+
+.banner .intro {
+  max-width: 600px;
+}
+
+.banner .intro h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner .intro p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.banner .intro button {
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.banner .stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.banner .stat-item {
+  width: 120px;
+  text-align: center;
+}
+
+.banner .stat-item img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.banner .stat-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.quote {
+  background-color: #fff;
+  padding: 60px 80px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.quote img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.quote-content {
+  max-width: 700px;
+}
+
+.quote-content blockquote {
+  font-size: 20px;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.quote-content h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+
+.quote-content p {
+  font-size: 14px;
+  color: #777;
+}
+
+.videos {
+  padding: 60px 80px;
+  background-color: #ffffff;
+}
+
+.videos h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.videos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.video-card {
+  width: calc(25% - 30px);
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 16px;
+  color: #222;
+}
+
+.video-card p {
+  font-size: 14px;
+  margin: 0 16px 16px;
+  color: #666;
+}
+
+.video-author {
+  display: flex;
+  align-items: center;
+  padding: 0 16px 16px;
+}
+
+.video-author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.video-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 16px;
+}
+
+.video-rating .stars {
+  display: flex;
+  gap: 4px;
+}
+
+.video-rating .stars img {
+  width: 16px;
+  height: 16px;
+}
+
+.video-rating span {
+  font-size: 12px;
+  color: #999;
+}
+
+.membership {
+  background-color: #f2f2f2;
+  padding: 60px 80px;
+}
+
+.membership h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+.membership-plans {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.membership-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.membership-card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.membership-card h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.membership-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.membership-card button {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.faq {
+  padding: 60px 80px;
+  background-color: #ffffff;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.faq-item {
+  width: calc(50% - 20px);
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 120px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-social a img {
+  width: 24px;
+  height: 24px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #bbb;
+  text-align: center;
+}
