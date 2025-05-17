@@ -1,0 +1,35 @@
+/* Make the body a flex container with vertical layout */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Make body take the full height of the viewport */
+    margin: 0;
+}
+
+/* Make main a flex container with horizontal layout */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Main should grow and take available space */
+}
+
+/* Make article take 2/3 of the main container */
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 1em;
+}
+
+/* Make aside take 1/3 of the main container */
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1em;
+}
+
+/* Optional: give fixed height to header and footer for nicer layout */
+header, footer {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
